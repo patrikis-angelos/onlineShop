@@ -10,17 +10,17 @@
 </head>
 <body>
     <header>
-        <nav class = "bg-darkGray flex justify-between p-fixed w-100">
+        <nav class = "bg-darkGray flex justify-between p-fixed w-100 nav-fixed">
             <div class="flex align-center">
                 <div class = "icon p-relative ml-5">
                     <a href="#">
                         <div class = "h-50 flex">
-                            <div class = "circle"></div>
-                            <div class = "circle"></div>
+                            <div class = "circle color-pink"></div>
+                            <div class = "circle color-pink"></div>
                         </div>
                         <div class = "h-50 flex">
-                            <div class = "circle"></div>
-                            <div class = "circle"></div>
+                            <div class = "circle color-pink"></div>
+                            <div class = "circle color-pink"></div>
                         </div>
                         <div class="rect bg-pink p-absolute"></div>
                     </a>
@@ -42,15 +42,58 @@
                 </div>
             </div>
             <div class="flex align-center">
-                <div class="search-field flex align-center">
-                    <input class="hide-mobile" type="text" placeholder="Search">
+                <div class="hide-tablet flex align-center">
                     <a class="ml-5" href="#"><i class="color-gray font-size-large fas fa-search"></i></a>
                 </div>
                 <a class="ml-10 signup-btn block color-gray" href="#">SIGN UP</a>
             </div>
         </nav>
+        <nav class="mt-45 bg-pink hide-mobile">
+            <div class="nav-secondary p-relative">
+                <div class="p-absolute abs-pos">
+                    <div class = "icon-large p-relative ml-5">
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkPink"></div>
+                            <div class = "circle-large color-darkPink"></div>
+                        </div>
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkPink"></div>
+                            <div class = "circle-large color-darkPink"></div>
+                        </div>
+                        <div class="rect bg-darkPink p-absolute"></div>
+                    </div>
+                </div>
+                <div class="flex flex-column align-center">
+                    <span class="block color-white">ZATTIX</span>
+                    <span class="block color-white">Bying and selling couldn't be easier than that</span>
+                    <div class="flex align-center">
+                        <input class="search-field" type="text" placeholder="Search">
+                        <button class="ml-5 block bg-darkGray search-btn" href="#">SEARCH</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main></main>
+    <main class="main-body bg-white p-relative">
+        <div class="container">
+            <section class="offer ph-20">
+                <span class="block color-gray">HOT OFFERS</span>
+                <div class="flex-tablet mt-10">
+                    <img class="offer-img block" src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/12/Cyberpunk-female.jpg" alt="">
+                    <div class="m-v offer-body">
+                        <p class="color-pink bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="mt-10">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare justo at facilisis pellentesque. Sed ut lorem lectus. 
+                            Nullam dignissim velit vel libero mattis posuere at quis neque.
+                        </p>
+                        <p class="mt-10">dolor sit amet</p>
+                        <p>dolor sit amet</p>
+                        <button class="mt-10 cart-btn bg-pink flex align-center"><i class="color-gray fas fa-shopping-cart"></i><p class="ml-10">ADD TO CART</p></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>

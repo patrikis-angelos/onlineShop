@@ -2,6 +2,7 @@ $colors: (
     pink: $pink,
     gray: $gray,
     darkGray: $darkGray,
+    darkPink: $darkPink,
     white: white,
 );
 
@@ -15,12 +16,23 @@ $positions: (
     display:flex;
 }
 
+.flex-tablet{
+    display: block;
+    @media (min-width: 768px){
+        display: flex;
+    }
+}
+
 .block{
     display:block;
 }
 
 .justify-between{
     justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 .align-center{
@@ -33,6 +45,22 @@ $positions: (
 
 .w-100{
     width: 100%;
+}
+
+.hide-mobile {
+    display:none;
+
+    @media (min-width: 768px){
+        display: block;
+    }
+}
+
+.hide-tablet {
+    display: block;
+
+    @media (min-width: 768px){
+        display: none;
+    }
 }
 
 @each $prop, $value in $colors {
