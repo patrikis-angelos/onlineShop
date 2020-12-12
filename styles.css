@@ -99,8 +99,13 @@
   font-family: GothamBold;
 }
 
-.hide {
+.hide-mobile {
   display: none;
+}
+@media (min-width: 768px) {
+  .hide-mobile {
+    display: block;
+  }
 }
 
 .font-size-large {
@@ -109,6 +114,10 @@
 
 .ml-5 {
   margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
 }
 
 .search-field {
