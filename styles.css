@@ -117,6 +117,10 @@
   margin-top: 10px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-45 {
   margin-top: 45px;
 }
@@ -136,6 +140,15 @@
 .ph-20 {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.ph-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.p-20 {
+  padding: 20px;
 }
 
 .rect {
@@ -229,7 +242,6 @@
 
 .offer {
   padding-top: 50px;
-  height: 40vh;
 }
 @media (min-width: 768px) {
   .offer {
@@ -264,6 +276,60 @@
   height: 40px;
   border: 2px solid #aa1f52;
   border-radius: 4px;
+}
+
+.card {
+  border: 1px solid #aaaaaa;
+  width: calc(50% - 10px);
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .card {
+    width: calc(20% - 10px);
+  }
+}
+
+.test {
+  flex-wrap: wrap;
+}
+
+.card-img {
+  width: 80%;
+  height: auto;
+}
+
+.plus-icon {
+  width: 25px;
+  height: 25px;
+  padding: 3px 5px;
+  border: 1px solid black;
+  color: #888888;
+}
+.plus-icon:hover {
+  color: #D32566;
+  background-color: #383838;
+}
+
+.dropdown {
+  box-shadow: 1px 1px 2px 2px #b4b4b4;
+  width: 100px;
+  display: none;
+  z-index: 1;
+  top: -350%;
+  left: -100%;
+}
+
+.plus-icon:hover .dropdown {
+  display: block;
+}
+
+.dropdown-link {
+  padding: 5px;
+}
+
+.dropdown-link:hover {
+  background-color: #383838;
 }
 
 /*# sourceMappingURL=styles.css.map */

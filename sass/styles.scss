@@ -63,7 +63,6 @@
 
 .offer {
     padding-top: 50px;
-    height: 40vh;
 
     @media (min-width: 768px)
     {
@@ -95,4 +94,57 @@
     height: 40px;
     border: 2px solid $darkPink;
     border-radius: 4px;
+}
+
+.card{
+    border: 1px solid rgb(170, 170, 170);
+    width: calc(50% - 10px);
+    margin:10px 0;
+    flex-wrap: wrap;
+    @media (min-width:768px){
+        width: calc(20% - 10px);
+    }
+}
+
+.test{
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 80%;
+    height: auto;
+}
+
+.plus-icon{
+    width: 25px;
+    height: 25px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    color: $gray;
+
+    &:hover {
+        color: $pink;
+        background-color: $darkGray;
+    }
+}
+
+.dropdown {
+    box-shadow: 1px 1px 2px 2px rgb(180, 180, 180);
+    width: 100px;
+    display: none;
+    z-index: 1;
+    top: -350%;
+    left: -100%;
+}
+
+.plus-icon:hover .dropdown{
+    display: block;
+}
+
+.dropdown-link{
+    padding: 5px;
+}
+
+.dropdown-link:hover{
+    background-color: $darkGray;
 }
