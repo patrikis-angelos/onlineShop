@@ -151,6 +151,14 @@
   padding: 20px;
 }
 
+.margin-50 {
+  margin-top: 100%;
+}
+
+.pb-100 {
+  padding-bottom: 100%;
+}
+
 .rect {
   top: 40%;
   left: 40%;
@@ -295,8 +303,12 @@
 }
 
 .card-img {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body {
+  margin-top: 50%;
 }
 
 .plus-icon {
@@ -312,7 +324,7 @@
 }
 
 .dropdown {
-  box-shadow: 1px 1px 2px 2px #b4b4b4;
+  box-shadow: 1px 1px 2px 2px #aaaaaa;
   width: 100px;
   display: none;
   z-index: 1;
@@ -330,6 +342,12 @@
 
 .dropdown-link:hover {
   background-color: #383838;
+}
+
+.section-header {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #aaaaaa;
 }
 
 /*# sourceMappingURL=styles.css.map */

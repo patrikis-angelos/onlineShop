@@ -97,7 +97,7 @@
 }
 
 .card{
-    border: 1px solid rgb(170, 170, 170);
+    border: 1px solid $lightGray;
     width: calc(50% - 10px);
     margin:10px 0;
     flex-wrap: wrap;
@@ -111,8 +111,12 @@
 }
 
 .card-img{
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body{
+    margin-top: 50%;
 }
 
 .plus-icon{
@@ -129,7 +133,7 @@
 }
 
 .dropdown {
-    box-shadow: 1px 1px 2px 2px rgb(180, 180, 180);
+    box-shadow: 1px 1px 2px 2px $lightGray;
     width: 100px;
     display: none;
     z-index: 1;
@@ -147,4 +151,10 @@
 
 .dropdown-link:hover{
     background-color: $darkGray;
+}
+
+.section-header {
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid $lightGray;
 }
