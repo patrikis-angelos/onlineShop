@@ -1,0 +1,52 @@
+$colors: (
+    pink: $pink,
+    gray: $gray,
+    darkGray: $darkGray,
+    white: white,
+);
+
+$positions: (
+    absolute: absolute,
+    relative: relative,
+    fixed: fixed,
+);
+
+.flex {
+    display:flex;
+}
+
+.block{
+    display:block;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.h-50{
+    height:50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+@each $prop, $value in $colors {
+    .color-#{$prop}{
+        color: $value;
+    }
+
+    .bg-#{$prop}{
+        background-color: $value;
+    }
+}
+
+@each $prop, $value in $positions {
+    .p-#{$prop}{
+        position: $value;
+    }
+}

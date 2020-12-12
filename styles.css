@@ -1,0 +1,122 @@
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.color-pink {
+  color: #D32566;
+}
+
+.bg-pink {
+  background-color: #D32566;
+}
+
+.color-gray {
+  color: #888888;
+}
+
+.bg-gray {
+  background-color: #888888;
+}
+
+.color-darkGray {
+  color: #383838;
+}
+
+.bg-darkGray {
+  background-color: #383838;
+}
+
+.color-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+@font-face {
+  font-family: HelveticaLight;
+  src: url("Fonts/Helvetica_Neue_LT_45_Light.ttf");
+}
+@font-face {
+  font-family: GothamBold;
+  src: url("Fonts/HomepageBaukasten-Bold.otf");
+}
+.rect {
+  top: 40%;
+  left: 40%;
+  width: 25%;
+  height: 10%;
+  transform: rotate(-45deg);
+}
+
+.circle {
+  border: 4px solid #D32566;
+  border-radius: 50%;
+  width: 50%;
+  margin: 4%;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.logo {
+  font-family: GothamBold;
+}
+
+.hide {
+  display: none;
+}
+
+.font-size-large {
+  font-size: 25px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.search-field {
+  padding: 5px;
+}
+
+.signup-btn {
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
