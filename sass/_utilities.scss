@@ -10,6 +10,7 @@ $positions: (
     absolute: absolute,
     relative: relative,
     fixed: fixed,
+    sticky: sticky,
 );
 
 .flex {
@@ -21,6 +22,17 @@ $positions: (
     @media (min-width: 768px){
         display: flex;
     }
+}
+
+.flex-mobile{
+    display: flex;
+    @media (min-width: 768px){
+        display: block;
+    }
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .block{
