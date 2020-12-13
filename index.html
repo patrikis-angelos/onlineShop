@@ -13,7 +13,7 @@
         <nav class = "bg-darkGray flex justify-between p-fixed w-100 nav-fixed">
             <div class="flex align-center">
                 <div class = "icon p-relative ml-5">
-                    <a href="#">
+                    <a href="index.html">
                         <div class = "h-50 flex">
                             <div class = "circle color-pink"></div>
                             <div class = "circle color-pink"></div>
@@ -26,24 +26,24 @@
                     </a>
                 </div>
                 <div class="flex align-center">
-                    <a class="logo color-white hide-mobile" href="#">ZATTIX</a>
+                    <a class="logo color-white hide-mobile" href="index.html">ZATTIX</a>
                     <div class="ml-10">
-                        <a class="flex align-center" href="#">
+                        <a class="flex align-center" href="index.html">
                             <i class="block color-gray font-size-large fas fa-home"></i>
-                            <span class="block ml-5 color-gray hide-mobile" href="#">HOME</span>
+                            <span class="block ml-5 color-gray hide-mobile">HOME</span>
                         </a>
                     </div>
                     <div class="ml-10">
                         <a class="flex align-center" href="#">
                             <i class="block color-gray font-size-large fas fa-shopping-cart"></i>
-                            <span class="block ml-5 color-gray hide-mobile" href="#">CART</span>
+                            <span class="block ml-5 color-gray hide-mobile">CART</span>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="flex align-center">
                 <div class="hide-tablet flex align-center">
-                    <a class="ml-5" href="#"><i class="color-gray font-size-large fas fa-search"></i></a>
+                    <a class="ml-5" href="html/search-result.html"><i class="color-gray font-size-large fas fa-search"></i></a>
                 </div>
                 <a class="ml-10 signup-btn block color-gray" href="#">SIGN UP</a>
             </div>
@@ -66,10 +66,10 @@
                 <div class="flex flex-column align-center">
                     <span class="block color-white">ZATTIX</span>
                     <span class="block color-white">Bying and selling couldn't be easier than that</span>
-                    <div class="flex align-center">
+                    <form class="flex align-center" action="html/search-result.html">
                         <input class="search-field" type="text" placeholder="Search">
-                        <button class="ml-5 block bg-darkGray search-btn" href="#">SEARCH</button>
-                    </div>
+                        <button class="ml-5 block bg-darkGray search-btn" type="submit">SEARCH</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -79,7 +79,7 @@
             <section class="offer ph-20">
                 <span class="block color-gray">HOT OFFERS</span>
                 <div class="flex-tablet mt-10">
-                    <img class="offer-img block" src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/12/Cyberpunk-female.jpg" alt="">
+                    <img class="offer-img block" src="https://threepixelslab.gr/wp-content/uploads/2019/03/pcbuilds-1.jpg" alt="">
                     <div class="m-v offer-body">
                         <p class="color-pink bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="mt-10">
@@ -394,6 +394,53 @@
             </section>
         </div>
     </main>
-    <footer></footer>
+    <footer class="mt-20">
+        <div class="container ph-20">
+            <div class="footer flex justify-center">
+                <div class="info">
+                    <div class="flex align-center justify-center">
+                        <div class = "icon p-relative ml-5">
+                            <a href="#">
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class="rect bg-gray p-absolute"></div>
+                            </a>
+                        </div>
+                        <p>ZATTIX</p>
+                    </div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="categories ph-20">
+                    <p class="categories-header color-pink">CATEGORIES</p>
+                    <div class="flex">
+                        <ul class="list">
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                        </ul>
+                        <ul class="list">
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                            <li class="mt-10"><a href="#">Lorem Ipsum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

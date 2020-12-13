@@ -137,7 +137,7 @@
     width: 100px;
     display: none;
     z-index: 1;
-    top: -350%;
+    top: -340%;
     left: -100%;
 }
 
@@ -157,4 +157,41 @@
     margin-bottom: 10px;
     padding: 10px 0;
     border-bottom: 1px solid $lightGray;
+}
+
+.info{
+    width: 100%;
+    @media (min-width: 768px)
+    {
+        width: 40%;
+    }
+}
+
+.categories{
+    width: 100%;
+    margin-top: 20px;
+    @media (min-width: 768px)
+    {
+        margin-top: 0;
+        width: 40%;
+    }
+}
+
+.categories-header{
+    padding-bottom: 10px;
+    border-bottom: 1px solid $pink;
+}
+
+.footer {
+    border-top: 1px solid $lightGray;
+    padding: 20px 0;
+    flex-direction: column;
+    @media (min-width: 768px)
+    {
+        flex-direction: row;
+    }
+}
+
+.list {
+    width: 200px;
 }
