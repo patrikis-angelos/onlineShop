@@ -168,6 +168,10 @@
   padding-right: 50px;
 }
 
+.pt-20 {
+  padding-top: 20px;
+}
+
 .p-20 {
   padding: 20px;
 }
@@ -178,6 +182,10 @@
 
 .top-0 {
   top: 0;
+}
+
+.pr-10 {
+  padding-right: 10px;
 }
 
 .rect {
@@ -202,31 +210,55 @@
 }
 
 .icon-large {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
 }
 
 .circle-large {
-  border: 15px solid;
+  border: 18px solid;
   border-radius: 50%;
   width: 50%;
   margin: 4%;
 }
 
 @font-face {
+  font-family: GothamBold;
+  src: url("Fonts/HomepageBaukasten-Bold.otf");
+}
+@font-face {
+  font-family: GothamRounded;
+  src: url("Fonts/Hero_Light.otf");
+}
+@font-face {
   font-family: HelveticaLight;
   src: url("Fonts/Helvetica_Neue_LT_45_Light.ttf");
 }
 @font-face {
-  font-family: GothamBold;
-  src: url("Fonts/HomepageBaukasten-Bold.otf");
+  font-family: HelveticaMedium;
+  src: url("Fonts/Helvetica_Neue_LT_65_Medium.ttf");
+}
+@font-face {
+  font-family: HelveticaBolt;
+  src: url("Fonts/Helvetica_Neue_LT_75_Bold.ttf");
 }
 .logo {
   font-family: GothamBold;
 }
 
+p {
+  font-family: HelveticaLight;
+}
+
 .font-size-large {
   font-size: 25px;
+}
+
+.font-size-xl {
+  font-size: 50px;
+}
+
+.font-size-medium {
+  font-size: 15px;
 }
 
 .search-field {
@@ -234,7 +266,6 @@
   height: 30px;
   width: 500px;
   margin: 5px 0;
-  z-index: 1;
 }
 
 .search-btn {
@@ -319,10 +350,6 @@
   }
 }
 
-.test {
-  flex-wrap: wrap;
-}
-
 .card-img {
   width: 100%;
   height: 100%;
@@ -349,7 +376,7 @@
   width: 100px;
   display: none;
   z-index: 1;
-  top: -340%;
+  top: -230%;
   left: -100%;
 }
 
@@ -466,6 +493,50 @@
 .sticky {
   position: sticky;
   top: 60px;
+}
+
+.card-bottom {
+  bottom: 10px;
+  left: 20px;
+}
+
+.price {
+  right: 20px;
+  bottom: 10px;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+nav {
+  font-family: GothamBold;
+}
+
+.discount-tag {
+  width: 50px;
+  height: 50px;
+  border-top: 100px solid #D35266;
+  border-right: 100px solid transparent;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.discount-price {
+  top: -80px;
+  transform: rotate(-45deg);
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.bar {
+  padding: 0 10px;
+  border-left: 1px solid #aaaaaa;
 }
 
 /*# sourceMappingURL=styles.css.map */
