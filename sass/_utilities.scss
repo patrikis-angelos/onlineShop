@@ -1,96 +1,99 @@
 $colors: (
-    pink: $pink,
-    gray: $gray,
-    darkGray: $darkGray,
-    darkPink: $darkPink,
-    white: rgb(255, 255, 255),
+  pink: $pink,
+  gray: $gray,
+  darkgray: $darkGray,
+  darkpink: $darkPink,
+  white: rgb(255, 255, 255),
+  lightGray: $lightGray,
 );
 
 $positions: (
-    absolute: absolute,
-    relative: relative,
-    fixed: fixed,
-    sticky: sticky,
+  absolute: absolute,
+  relative: relative,
+  fixed: fixed,
+  sticky: sticky,
 );
 
 .flex {
-    display:flex;
+  display: flex;
 }
 
-.flex-tablet{
-    display: block;
-    @media (min-width: 768px){
-        display: flex;
-    }
-}
+.flex-tablet {
+  display: block;
 
-.flex-mobile{
+  @media (min-width: 768px) {
     display: flex;
-    @media (min-width: 768px){
-        display: block;
-    }
+  }
 }
 
-.flex-wrap{
-    flex-wrap: wrap;
+.flex-mobile {
+  display: flex;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
-.block{
-    display:block;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.justify-between{
-    justify-content: space-between;
+.block {
+  display: block;
 }
 
-.justify-center{
-    justify-content: center;
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
-.align-center{
-    align-items: center;
+.align-center {
+  align-items: center;
 }
 
-.h-50{
-    height:50%;
+.h-50 {
+  height: 50%;
 }
 
-.w-100{
-    width: 100%;
+.w-100 {
+  width: 100%;
 }
 
 .hide-mobile {
-    display:none;
+  display: none;
 
-    @media (min-width: 768px){
-        display: block;
-    }
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .hide-tablet {
-    display: block;
+  display: block;
 
-    @media (min-width: 768px){
-        display: none;
-    }
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
 @each $prop, $value in $colors {
-    .color-#{$prop}{
-        color: $value;
-    }
+  .color-#{$prop} {
+    color: $value;
+  }
 
-    .bg-#{$prop}{
-        background-color: $value;
-    }
+  .bg-#{$prop} {
+    background-color: $value;
+  }
 }
 
 @each $prop, $value in $positions {
-    .p-#{$prop}{
-        position: $value;
-    }
+  .p-#{$prop} {
+    position: $value;
+  }
 }

@@ -1,56 +1,56 @@
 @font-face {
-    font-family: GothamBold;
-    src: url("Fonts/HomepageBaukasten-Bold.otf");
-}
-
-@font-face{
-    font-family: GothamRounded;
-    src: url("Fonts/Hero_Light.otf");
+  font-family: GothamBold;
+  src: url("Fonts/HomepageBaukasten-Bold.otf");
 }
 
 @font-face {
-    font-family: HelveticaLight;
-    src: url("Fonts/Helvetica_Neue_LT_45_Light.ttf");
+  font-family: GothamRounded;
+  src: url("Fonts/Hero_Light.otf");
 }
 
 @font-face {
-    font-family: HelveticaMedium;
-    src: url("Fonts/Helvetica_Neue_LT_65_Medium.ttf");
+  font-family: HelveticaLight;
+  src: url("Fonts/Helvetica_Neue_LT_45_Light.ttf");
 }
 
 @font-face {
-    font-family: HelveticaBolt;
-    src: url("Fonts/Helvetica_Neue_LT_75_Bold.ttf");
+  font-family: HelveticaMedium;
+  src: url("Fonts/Helvetica_Neue_LT_65_Medium.ttf");
 }
 
-.h-medium{
-    font-family: HelveticaMedium;
+@font-face {
+  font-family: HelveticaBolt;
+  src: url("Fonts/Helvetica_Neue_LT_75_Bold.ttf");
 }
 
-.h-light{
-    font-family: HelveticaLight;
+.h-medium {
+  font-family: HelveticaMedium, sans-serif;
 }
 
-.h-bold{
-    font-family: HelveticaBolt;
+.h-light {
+  font-family: HelveticaLight, sans-serif;
 }
 
-.g-rounded{
-    font-family: GothamRounded;
+.h-bold {
+  font-family: HelveticaBolt, sans-serif;
+}
+
+.g-rounded {
+  font-family: GothamRounded, sans-serif;
 }
 
 .font-size-large {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .font-size-xl {
-    font-size: 50px;
+  font-size: 50px;
 }
 
-.font-size-medium{
-    font-size: 15px;
+.font-size-medium {
+  font-size: 15px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }

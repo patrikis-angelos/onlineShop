@@ -71,34 +71,34 @@
 }
 
 .color-pink {
-  color: #D35266;
+  color: #d35266;
 }
 
 .bg-pink {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .color-gray {
-  color: #888888;
+  color: #888;
 }
 
 .bg-gray {
-  background-color: #888888;
+  background-color: #888;
 }
 
-.color-darkGray {
+.color-darkgray {
   color: #383838;
 }
 
-.bg-darkGray {
+.bg-darkgray {
   background-color: #383838;
 }
 
-.color-darkPink {
+.color-darkpink {
   color: #bd495a;
 }
 
-.bg-darkPink {
+.bg-darkpink {
   background-color: #bd495a;
 }
 
@@ -108,6 +108,14 @@
 
 .bg-white {
   background-color: white;
+}
+
+.color-lightGray {
+  color: #aaaaaa;
+}
+
+.bg-lightGray {
+  background-color: #aaaaaa;
 }
 
 .p-absolute {
@@ -250,19 +258,19 @@
   src: url("Fonts/Helvetica_Neue_LT_75_Bold.ttf");
 }
 .h-medium {
-  font-family: HelveticaMedium;
+  font-family: HelveticaMedium, sans-serif;
 }
 
 .h-light {
-  font-family: HelveticaLight;
+  font-family: HelveticaLight, sans-serif;
 }
 
 .h-bold {
-  font-family: HelveticaBolt;
+  font-family: HelveticaBolt, sans-serif;
 }
 
 .g-rounded {
-  font-family: GothamRounded;
+  font-family: GothamRounded, sans-serif;
 }
 
 .font-size-large {
@@ -346,10 +354,10 @@
   height: 25px;
   padding: 3px 5px;
   border: 1px solid black;
-  color: #888888;
+  color: #888;
 }
 .plus-icon:hover {
-  color: #D35266;
+  color: #d35266;
   background-color: #383838;
 }
 
@@ -402,7 +410,7 @@
 .discount-tag {
   width: 50px;
   height: 50px;
-  border-top: 100px solid #D35266;
+  border-top: 100px solid #d35266;
   border-right: 100px solid transparent;
   top: 0;
   text-align: center;
@@ -468,7 +476,7 @@
 
 .categories-header {
   padding-bottom: 10px;
-  border-bottom: 1px solid #D35266;
+  border-bottom: 1px solid #d35266;
 }
 
 .footer {
@@ -516,7 +524,7 @@
 }
 
 .form-cat {
-  border-bottom: 1px solid #D35266;
+  border-bottom: 1px solid #d35266;
 }
 
 .search-results-header {
@@ -564,15 +572,15 @@
 }
 
 main {
-  font-family: HelveticaBold;
+  font-family: HelveticaBold, sans-serif;
 }
 
 header {
-  font-family: GothamBold;
+  font-family: GothamBold, sans-serif;
 }
 
 footer {
-  font-family: GothamRounded;
+  font-family: GothamRounded, sans-serif;
 }
 
 main a:hover {
@@ -581,7 +589,7 @@ main a:hover {
 }
 
 nav {
-  font-family: GothamBold;
+  font-family: GothamBold, sans-serif;
 }
 
 .strike {

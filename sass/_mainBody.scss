@@ -1,137 +1,138 @@
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .offer {
-    padding-top: 50px;
+  padding-top: 50px;
 
-    @media (min-width: 768px)
-    {
-        padding-top: 20px;
-    }
+  @media (min-width: 768px) {
+    padding-top: 20px;
+  }
 }
 
 .offer-img {
-    width: 100%;
-    height: auto;
-    @media (min-width: 768px){
-        width: 40%;
-    }
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 768px) {
+    width: 40%;
+  }
 }
 
-.offer-body{
-    margin-left: 0;
-    @media (min-width: 768px)
-    {
-        margin-left: 10px;
-    }
+.offer-body {
+  margin-left: 0;
+
+  @media (min-width: 768px) {
+    margin-left: 10px;
+  }
 }
 
-.cart-btn{
-    height: 40px;
-    border: 2px solid $darkPink;
-    border-radius: 4px;
+.cart-btn {
+  height: 40px;
+  border: 2px solid $darkPink;
+  border-radius: 4px;
 }
 
-.card{
-    border: 1px solid $lightGray;
-    width: calc(50% - 10px);
-    margin:10px 0;
-    flex-wrap: wrap;
-    @media (min-width:768px){
-        width: calc(20% - 10px);
-    }
+.card {
+  border: 1px solid $lightGray;
+  width: calc(50% - 10px);
+  margin: 10px 0;
+  flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    width: calc(20% - 10px);
+  }
 }
 
-.card-img{
-    width: 100%;
-    height: 100%;
+.card-img {
+  width: 100%;
+  height: 100%;
 }
 
-.card-body{
-    margin-top: 50%;
+.card-body {
+  margin-top: 50%;
 }
 
-.plus-icon{
-    width: 25px;
-    height: 25px;
-    padding: 3px 5px;
-    border: 1px solid black;
-    color: $gray;
+.plus-icon {
+  width: 25px;
+  height: 25px;
+  padding: 3px 5px;
+  border: 1px solid black;
+  color: $gray;
 
-    &:hover {
-        color: $pink;
-        background-color: $darkGray;
-    }
+  &:hover {
+    color: $pink;
+    background-color: $darkGray;
+  }
 }
 
 .dropdown {
-    box-shadow: 1px 1px 2px 2px $lightGray;
-    width: 100px;
-    display: none;
-    z-index: 1;
-    top: -230%;
-    left: -100%;
+  box-shadow: 1px 1px 2px 2px $lightGray;
+  width: 100px;
+  display: none;
+  z-index: 1;
+  top: -230%;
+  left: -100%;
 }
 
-.plus-icon:hover .dropdown{
-    display: block;
+.plus-icon:hover .dropdown {
+  display: block;
 }
 
-.dropdown-link{
-    padding: 5px;
+.dropdown-link {
+  padding: 5px;
 }
 
-.dropdown-link:hover{
-    background-color: $darkGray;
+.dropdown-link:hover {
+  background-color: $darkGray;
 }
 
 .section-header {
-    margin-bottom: 10px;
-    padding: 10px 0;
-    border-bottom: 1px solid $lightGray;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid $lightGray;
 }
 
-.info{
-    width: 100%;
-    @media (min-width: 768px)
-    {
-        width: 40%;
-    }
+.info {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 40%;
+  }
 }
 
-.price{
-    right: 20px;
-    bottom: 10px;
+.price {
+  right: 20px;
+  bottom: 10px;
 }
 
-.card-bottom{
-    bottom: 10px;
-    left: 20px;
+.card-bottom {
+  bottom: 10px;
+  left: 20px;
 }
 
-.discount-tag{
-    width: 50px;
-    height: 50px;
-    border-top:100px solid $pink;
-    border-right: 100px solid transparent;
-    top:0;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px 0;
+.discount-tag {
+  width: 50px;
+  height: 50px;
+  border-top: 100px solid $pink;
+  border-right: 100px solid transparent;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
 }
 
-.discount-price{
-    top: -80px;
-    transform: rotate(-45deg);
+.discount-price {
+  top: -80px;
+  transform: rotate(-45deg);
 }
 
-.main-offer{
-    width: 100%;
-    @media (min-width:768px)
-    {
-        width: 50%;
-    }
+.main-offer {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
 }

@@ -1,26 +1,26 @@
 @import "all";
 
 main {
-    font-family: HelveticaBold;
+  font-family: HelveticaBold, sans-serif;
 }
 
-header{
-    font-family: GothamBold;
+header {
+  font-family: GothamBold, sans-serif;
 }
 
-footer{
-    font-family: GothamRounded;
+footer {
+  font-family: GothamRounded, sans-serif;
 }
 
-main a:hover{
-    text-decoration: underline;
-    text-decoration-color: inherit;
+main a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
 }
 
-nav{
-    font-family: GothamBold;
+nav {
+  font-family: GothamBold, sans-serif;
 }
 
-.strike{
-    text-decoration: line-through;
+.strike {
+  text-decoration: line-through;
 }
