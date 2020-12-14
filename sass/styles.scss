@@ -16,6 +16,11 @@ footer{
     font-family: GothamRounded;
 }
 
+main a:hover{
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
 .font-size-large {
     font-size: 25px;
 }
