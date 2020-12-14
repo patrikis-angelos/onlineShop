@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 - `git clone https://github.com/patrick-angelos/onlineShop`
 - `cd onlineShop`
 
-## ![Live demo](https://patrick-angelos.github.io/onlineShop/)
+## [Live demo](https://patrick-angelos.github.io/onlineShop/)
 
 ## Author
 
@@ -39,10 +39,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to ![Mohammed Awad](https://www.behance.net/M_Awad) for creating this awasome layout.
+- Hat tip to [Mohammed Awad](https://www.behance.net/M_Awad) for creating this awasome layout.
 - Hat tip to Microverse for their `README` template.
 
 ## 📝 License
 
-This project is under the ![Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/) and you can Share, copy and redistribute the material in any medium or format. Adapt, remix, transform, and build upon the material as long as you give appropriate credit to the creator (Mohammed Awad), provide a link to the license, and indicate if changes were made.
+This project is under the [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/) and you can Share, copy and redistribute the material in any medium or format. Adapt, remix, transform, and build upon the material as long as you give appropriate credit to the creator (Mohammed Awad), provide a link to the license, and indicate if changes were made.
 You may not use the material for commercial purposes.
