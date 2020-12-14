@@ -70,10 +70,11 @@
 .dropdown {
   box-shadow: 1px 1px 2px 2px $lightGray;
   width: 100px;
+  height: 70px;
   display: none;
   z-index: 1;
-  top: -230%;
-  left: -100%;
+  top: -70px;
+  left: 0;
 }
 
 .plus-icon:hover .dropdown {
