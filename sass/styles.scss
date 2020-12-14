@@ -9,7 +9,7 @@
     font-family: GothamBold;
 }
 
-p {
+main {
     font-family: HelveticaLight;
 }
 
@@ -169,8 +169,12 @@ p {
 .categories{
     width: 100%;
     margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
     @media (min-width: 768px)
     {
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 0;
         width: 40%;
     }
@@ -197,8 +201,11 @@ p {
 
 .form {
     width: 100%;
+    position: fixed;
+    top: 40px;
     @media (min-width: 768px)
     {
+        position: static;
         width: 30%;
         border-right: 1px solid $lightGray;
     }
@@ -210,8 +217,10 @@ p {
 
 .search-results{
     width: 100%;
+    margin-top:300px;
     @media (min-width: 768px)
     {
+        margin-top: 0;
         width: 70%;
     }
 }
@@ -236,6 +245,7 @@ p {
     width: 100px;
     height: 100px;
     min-width: 100px;
+    max-width: 200px;
     max-height: 150px;
     @media (min-width:768px){
         width: 100%;
@@ -290,4 +300,17 @@ nav{
 .bar {
     padding: 0 10px;
     border-left: 1px solid $lightGray;
+}
+
+.price-btn {
+    height: 40px;
+    border: 2px solid $darkPink;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.no-left-radius{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
