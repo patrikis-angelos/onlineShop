@@ -4,13 +4,16 @@
 @import "icon";
 @import "fonts";
 
+main {
+    font-family: HelveticaBold;
+}
 
-.logo {
+header{
     font-family: GothamBold;
 }
 
-main {
-    font-family: HelveticaLight;
+footer{
+    font-family: GothamRounded;
 }
 
 .font-size-large {
@@ -201,11 +204,9 @@ main {
 
 .form {
     width: 100%;
-    position: fixed;
     top: 40px;
     @media (min-width: 768px)
     {
-        position: static;
         width: 30%;
         border-right: 1px solid $lightGray;
     }
@@ -217,10 +218,8 @@ main {
 
 .search-results{
     width: 100%;
-    margin-top:300px;
     @media (min-width: 768px)
     {
-        margin-top: 0;
         width: 70%;
     }
 }
@@ -313,4 +312,12 @@ nav{
 .no-left-radius{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.main-offer{
+    width: 100%;
+    @media (min-width:768px)
+    {
+        width: 50%;
+    }
 }

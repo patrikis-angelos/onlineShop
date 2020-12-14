@@ -241,12 +241,32 @@
   font-family: HelveticaBolt;
   src: url("Fonts/Helvetica_Neue_LT_75_Bold.ttf");
 }
-.logo {
-  font-family: GothamBold;
+.h-medium {
+  font-family: HelveticaMedium;
+}
+
+.h-light {
+  font-family: HelveticaLight;
+}
+
+.h-bold {
+  font-family: HelveticaBolt;
+}
+
+.g-rounded {
+  font-family: GothamRounded;
 }
 
 main {
-  font-family: HelveticaLight;
+  font-family: HelveticaBold;
+}
+
+header {
+  font-family: GothamBold;
+}
+
+footer {
+  font-family: GothamRounded;
 }
 
 .font-size-large {
@@ -444,12 +464,10 @@ main {
 
 .form {
   width: 100%;
-  position: fixed;
   top: 40px;
 }
 @media (min-width: 768px) {
   .form {
-    position: static;
     width: 30%;
     border-right: 1px solid #aaaaaa;
   }
@@ -461,11 +479,9 @@ main {
 
 .search-results {
   width: 100%;
-  margin-top: 300px;
 }
 @media (min-width: 768px) {
   .search-results {
-    margin-top: 0;
     width: 70%;
   }
 }
@@ -560,6 +576,15 @@ nav {
 .no-left-radius {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.main-offer {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .main-offer {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
