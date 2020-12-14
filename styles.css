@@ -188,6 +188,14 @@
   padding-right: 10px;
 }
 
+.top-n20 {
+  top: -20px;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
 .rect {
   top: 40%;
   left: 40%;
@@ -257,23 +265,6 @@
   font-family: GothamRounded;
 }
 
-main {
-  font-family: HelveticaBold;
-}
-
-header {
-  font-family: GothamBold;
-}
-
-footer {
-  font-family: GothamRounded;
-}
-
-main a:hover {
-  text-decoration: underline;
-  text-decoration-color: inherit;
-}
-
 .font-size-large {
   font-size: 25px;
 }
@@ -286,38 +277,8 @@ main a:hover {
   font-size: 15px;
 }
 
-.search-field {
-  border: 0;
-  height: 30px;
-  width: 500px;
-  margin: 5px 0;
-}
-
-.search-btn {
-  height: 32px;
-}
-
-.signup-btn {
-  margin-right: 5px;
-  border: 0;
-}
-
-.nav-fixed {
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.nav-secondary {
-  padding: 40px;
-}
-
-.abs-pos {
-  top: -20px;
-}
-
-.main-body {
-  z-index: 1;
+.bold {
+  font-weight: bold;
 }
 
 .container {
@@ -332,10 +293,6 @@ main a:hover {
   .offer {
     padding-top: 20px;
   }
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .offer-img {
@@ -432,6 +389,68 @@ main a:hover {
   }
 }
 
+.price {
+  right: 20px;
+  bottom: 10px;
+}
+
+.card-bottom {
+  bottom: 10px;
+  left: 20px;
+}
+
+.discount-tag {
+  width: 50px;
+  height: 50px;
+  border-top: 100px solid #D35266;
+  border-right: 100px solid transparent;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.discount-price {
+  top: -80px;
+  transform: rotate(-45deg);
+}
+
+.main-offer {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .main-offer {
+    width: 50%;
+  }
+}
+
+.search-field {
+  border: 0;
+  height: 30px;
+  width: 500px;
+  margin: 5px 0;
+}
+
+.search-btn {
+  height: 32px;
+}
+
+.signup-btn {
+  margin-right: 5px;
+  border: 0;
+}
+
+.nav-fixed {
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav-secondary {
+  padding: 40px;
+}
+
 .categories {
   width: 100%;
   margin-top: 20px;
@@ -465,6 +484,11 @@ main a:hover {
 
 .list {
   width: 200px;
+}
+
+.bar {
+  padding: 0 10px;
+  border-left: 1px solid #aaaaaa;
 }
 
 .form {
@@ -526,50 +550,6 @@ main a:hover {
   top: 60px;
 }
 
-.card-bottom {
-  bottom: 10px;
-  left: 20px;
-}
-
-.price {
-  right: 20px;
-  bottom: 10px;
-}
-
-.z-1 {
-  z-index: 1;
-}
-
-nav {
-  font-family: GothamBold;
-}
-
-.discount-tag {
-  width: 50px;
-  height: 50px;
-  border-top: 100px solid #D35266;
-  border-right: 100px solid transparent;
-  top: 0;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 10px 0;
-}
-
-.discount-price {
-  top: -80px;
-  transform: rotate(-45deg);
-}
-
-.strike {
-  text-decoration: line-through;
-}
-
-.bar {
-  padding: 0 10px;
-  border-left: 1px solid #aaaaaa;
-}
-
 .price-btn {
   height: 40px;
   border: 2px solid #bd495a;
@@ -583,13 +563,29 @@ nav {
   border-bottom-left-radius: 0;
 }
 
-.main-offer {
-  width: 100%;
+main {
+  font-family: HelveticaBold;
 }
-@media (min-width: 768px) {
-  .main-offer {
-    width: 50%;
-  }
+
+header {
+  font-family: GothamBold;
+}
+
+footer {
+  font-family: GothamRounded;
+}
+
+main a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+
+nav {
+  font-family: GothamBold;
+}
+
+.strike {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=styles.css.map */
