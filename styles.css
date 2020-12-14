@@ -118,6 +118,14 @@
   background-color: #aaaaaa;
 }
 
+.color-verylightGray {
+  color: #e6e6e6;
+}
+
+.bg-verylightGray {
+  background-color: #e6e6e6;
+}
+
 .p-absolute {
   position: absolute;
 }
