@@ -10,48 +10,47 @@
 </head>
 <body>
     <header>
-        <nav class = "bg-darkgray flex justify-between p-fixed w-100 nav-fixed">
-            <div class="flex align-center">
-                <div class = "icon p-relative ml-5">
-                    <a href="index.html">
-                        <div class = "h-50 flex">
-                            <div class = "circle color-pink"></div>
-                            <div class = "circle color-pink"></div>
-                        </div>
-                        <div class = "h-50 flex">
-                            <div class = "circle color-pink"></div>
-                            <div class = "circle color-pink"></div>
-                        </div>
-                        <div class="rect bg-pink p-absolute"></div>
+        <nav class = "bg-darkgray w-100 p-fixed nav-fixed">
+            <div class = "flex justify-around align-center nav-container m-h">
+                <div class="flex align-center">
+                    <div class = "icon p-relative">
+                        <a href="index.html">
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class="rect bg-pink p-absolute"></div>
+                        </a>
+                    </div>
+                    <h1><a class="logo color-white hide-mobile" href="index.html">ZATTIX</a></h1>
+                </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="index.html">
+                        <i class="block color-gray font-size-medium fas fa-home"></i>
+                        <span class="block ml-5 color-gray hide-mobile">HOME</span>
                     </a>
                 </div>
-                <div class="flex align-center">
-                    <h1><a class="logo color-white hide-mobile" href="index.html">ZATTIX</a></h1>
-                    <div class="ml-10">
-                        <a class="flex align-center" href="index.html">
-                            <i class="block color-gray font-size-medium fas fa-home"></i>
-                            <span class="block ml-5 color-gray hide-mobile">HOME</span>
-                        </a>
-                    </div>
-                    <div class="ml-10">
-                        <a class="flex align-center" href="#">
-                            <i class="block color-gray font-size-medium fas fa-shopping-cart"></i>
-                            <span class="block ml-5 color-gray hide-mobile">CART</span>
-                        </a>
-                    </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="#">
+                        <i class="block color-gray font-size-medium fas fa-shopping-cart"></i>
+                        <span class="block ml-5 color-gray hide-mobile">CART</span>
+                    </a>
                 </div>
-            </div>
-            <div class="flex align-center">
-                <div class="hide-tablet flex align-center">
+                <!--<div class="hide-tablet flex align-center">
                     <a class="ml-5" href="html/search-result.html"><i class="color-gray font-size-large fas fa-search"></i></a>
-                </div>
+                </div>-->
                 <a class="ml-10 signup-btn block color-gray" href="#">SIGN UP</a>
+                <button class="bg-pink postadd-btn color-white bold" type="button">POST AN ADD</button>
             </div>
         </nav>
-        <nav class="mt-45 bg-pink hide-mobile">
+        <nav class="mt-45 bg-pink">
             <div class="nav-secondary p-relative">
                 <div class="p-absolute top-n20">
-                    <div class = "icon-large p-relative ml-5">
+                    <div class = "icon-large p-relative ml-5 hide-mobile">
                         <div class = "h-50 flex">
                             <div class = "circle-large color-darkpink"></div>
                             <div class = "circle-large color-darkpink"></div>
@@ -66,10 +65,19 @@
                 <div class="flex flex-column align-center">
                     <a href="index.html"><span class="block color-white p-20 p-relative z-1 font-size-xl">ZATTIX</span></a>
                     <span class="block color-white p-20 z-1">For all your gaming needs</span>
-                    <form class="flex align-center p-20 z-1" action="html/search-result.html">
-                        <input class="search-field" type="text" placeholder="Search">
-                        <button class="ml-5 block bg-darkgray search-btn color-gray" type="submit">SEARCH</button>
-                    </form>
+                    <div class="flex-tablet align-center z-1">
+                        <form class="flex-tablet align-center" action="html/search-result.html"></form>
+                            <div class="flex">
+                                <div class="flex search-cat bg-white justify-between align-center p-relative">
+                                    <span class="font-size-small color-gray">Categories</span>
+                                    <i class="color-gray font-size-small fas fa-arrow-down"></i>
+                                    <div class="p-absolute"></div>
+                                </div>
+                                <input class="block search-field" type="text" placeholder="Search">
+                            </div>
+                            <button class="block bg-darkgray search-btn color-gray" type="submit">SEARCH</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>
