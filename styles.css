@@ -283,6 +283,7 @@
 
 .g-rounded {
   font-family: GothamRounded, sans-serif;
+  font-weight: 600;
 }
 
 .font-size-large {
@@ -393,10 +394,12 @@
 
 .dropdown-link {
   padding: 5px;
+  color: #383838;
 }
 
 .dropdown-link:hover {
-  background-color: #383838;
+  background-color: #888;
+  text-decoration: none;
 }
 
 .section-header {
@@ -507,6 +510,29 @@
 .nav-container {
   width: 100%;
   max-width: 1000px;
+}
+
+.cat-dropdown {
+  height: 100px;
+  bottom: -100px;
+  left: 0;
+  box-shadow: 1px 1px 2px 2px #aaaaaa;
+  width: 150px;
+  display: none;
+  overflow: scroll;
+}
+
+.search-cat:hover .cat-dropdown {
+  display: block;
+}
+
+.cat-link {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.cat-link:hover {
+  background-color: #888;
 }
 
 .categories {
@@ -634,7 +660,7 @@ header {
 footer {
   font-family: GothamRounded, sans-serif;
   color: #383838;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 main a:hover {

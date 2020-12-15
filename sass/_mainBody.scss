@@ -83,10 +83,12 @@
 
 .dropdown-link {
   padding: 5px;
+  color: $darkGray;
 }
 
 .dropdown-link:hover {
-  background-color: $darkGray;
+  background-color: $gray;
+  text-decoration: none;
 }
 
 .section-header {
