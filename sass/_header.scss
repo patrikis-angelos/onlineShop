@@ -3,13 +3,13 @@
   height: 30px;
   width: 80%;
   margin: 5px 0;
-  @media (min-width: 768px)
-  {
+
+  @media (min-width: 768px) {
     width: 500px;
   }
 }
 
-.search-cat{
+.search-cat {
   border: 0;
   height: 32px;
   width: 100px;
@@ -17,8 +17,8 @@
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
-  @media (min-width: 768px)
-  {
+
+  @media (min-width: 768px) {
     width: 150px;
   }
 }
@@ -27,7 +27,8 @@
   margin-left: 0;
   height: 32px;
   width: 100%;
-  @media(min-width: 768px){
+
+  @media (min-width: 768px) {
     margin-left: 5px;
     width: 100px;
   }
@@ -48,7 +49,7 @@
   padding: 40px;
 }
 
-.cat-dropdown{
+.cat-dropdown {
   height: 100px;
   bottom: -100px;
   left: 0;
@@ -58,15 +59,15 @@
   overflow: scroll;
 }
 
-.search-cat:hover .cat-dropdown{
+.search-cat:hover .cat-dropdown {
   display: block;
 }
 
-.cat-link{
+.cat-link {
   font-size: 12px;
   padding: 5px 0;
 }
 
-.cat-link:hover{
+.cat-link:hover {
   background-color: $gray;
 }
