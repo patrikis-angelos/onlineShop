@@ -33,3 +33,28 @@ nav {
 .postadd-btn{
   height: 30px;
 }
+
+.slides {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  top: -250px;
+}
+
+.slider-circle{
+  width: 5px;
+  height: 5px;
+  background-color: $gray;
+  border-radius: 50%;
+}
+
+.slider-circle:hover{
+  background-color: $pink;
+}
