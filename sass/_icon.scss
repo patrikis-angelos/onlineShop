@@ -1,0 +1,32 @@
+.rect {
+  top: 40%;
+  left: 40%;
+  width: 25%;
+  height: 10%;
+  transform: rotate(-45deg);
+}
+
+.circle {
+  border: 4px solid;
+  border-radius: 50%;
+  width: 50%;
+  margin: 4%;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.icon-large {
+  width: 350px;
+  height: 350px;
+}
+
+.circle-large {
+  border: 18px solid;
+  border-radius: 50%;
+  width: 50%;
+  margin: 4%;
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>OnlineShop</title>
+</head>
+<body>
+    <header>
+        <nav class = "bg-darkgray w-100 p-fixed nav-fixed">
+            <div class = "flex justify-around align-center max-width-1000 m-h">
+                <div class="flex align-center">
+                    <div class = "icon p-relative">
+                        <a href="../index.html">
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class="rect bg-pink p-absolute"></div>
+                        </a>
+                    </div>
+                    <h1><a class="logo color-white hide-mobile" href="../index.html">ZATTIX</a></h1>
+                </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="../index.html">
+                        <i class="block color-gray font-size-medium fas fa-home"></i>
+                        <span class="block ml-5 color-gray hide-mobile">HOME</span>
+                    </a>
+                </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="search-result.html">
+                        <i class="block color-gray font-size-medium fas fa-shopping-cart"></i>
+                        <span class="block ml-5 color-gray hide-mobile">CART</span>
+                    </a>
+                </div>
+                <a class="ml-10 signup-btn block color-gray" href="search-result.html">SIGN UP</a>
+                <button class="bg-pink postadd-btn color-white bold" type="button">POST AN ADD</button>
+            </div>
+        </nav>
+        <nav class="mt-45 bg-pink">
+            <div class="nav-secondary p-relative">
+                <div class="p-absolute top-n20">
+                    <div class = "icon-large p-relative ml-5 hide-mobile">
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class="rect bg-darkpink p-absolute"></div>
+                    </div>
+                </div>
+                <div class="flex flex-column align-center">
+                    <a href="../index.html"><span class="block color-white p-20 p-relative z-1 font-size-xl">ZATTIX</span></a>
+                    <h2 class="block color-white p-20 z-1">For all your gaming needs</h2>
+                    <div class="flex-tablet align-center z-1">
+                        <form class="flex-tablet align-center p-20 z-1" action="search-result.html">
+                            <div class="flex">
+                                <div class="flex search-cat bg-white justify-between align-center p-relative">
+                                    <span class="font-size-small color-gray">Categories</span>
+                                    <i class="color-gray font-size-small fas fa-arrow-down"></i>
+                                    <div class="p-absolute cat-dropdown bg-white">
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Video Games</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Board Games</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Headphones</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Gaming Chairs</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Microphones</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Speakers</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="search-result.html">Category</a>
+                                    </div>
+                                </div>
+                                <input class="block search-field" type="text" placeholder="Search">
+                            </div>
+                            <button class="ml-5 block bg-darkgray search-btn color-gray" type="submit">SEARCH</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-body bg-white p-relative">
+        <div class="container flex-tablet offer">
+            <div class="form bg-white z-1">
+                <div class="sticky">
+                    <form action="search-result.html">
+                        <div>
+                            <p class="form-cat color-pink">Category</p>
+                            <div class="mt-10 flex-mobile flex-wrap">
+                                <div class="ml-10">
+                                    <input type="checkbox" id="kids" name="category" value="kids">
+                                    <label for="kids"> Kids </label>
+                                </div>
+                                <div class="mt-5 ml-10">
+                                    <input type="checkbox" id="strategy" name="manufacturer" value="strategy">
+                                    <label for="strategy"> Strategy </label>
+                                </div>
+                                <div class="mt-5 ml-10">
+                                    <input type="checkbox" id="cardGames" name="manufacturer" value="cardGames">
+                                    <label for="cardGames"> Card Games </label>
+                                </div>
+                                <div class="mt-5 ml-10">
+                                    <input type="checkbox" id="luck" name="manufacturer" value="luck">
+                                    <label for="luck"> Family Games </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-10">
+                            <p class="form-cat color-pink">Players</p>
+                            <div class="mt-10 flex-mobile flex-wrap">
+                                <div class="ml-10">
+                                    <input type="checkbox" id="2" name="players" value="2">
+                                    <label for="2"> 1-2</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10">
+                                    <input type="checkbox" id="3" name="players" value="3">
+                                    <label for="3"> 1-3</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10">
+                                    <input type="checkbox" id="4" name="players" value="4">
+                                    <label for="4"> 2-4</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10">
+                                    <input type="checkbox" id="5" name="players" value="5">
+                                    <label for="5"> 2-5</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10">
+                                    <input type="checkbox" id="more5" name="players" value="more5">
+                                    <label for="more5"> + 5</label><br class="hide-mobile">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-10">
+                            <p class="form-cat color-pink">Price Range</p>
+                            <div class="mt-10 flex-mobile flex-wrap">
+                                <div class="ml-10">
+                                    <input type="radio" id="to10" name="price" value="to10">
+                                    <label for="to10"> 5$ - 10$</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10 mt-5">
+                                    <input type="radio" id="to25" name="price" value="to25">
+                                    <label for="to25"> 10$ - 25$</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10 mt-5">
+                                    <input type="radio" id="to60" name="price" value="to60">
+                                    <label for="to60"> 25$ - 60$</label><br class="hide-mobile">
+                                </div>
+                                <div class="ml-10 mt-5">
+                                    <input type="radio" id="more60" name="price" value="more60">
+                                    <label for="more60"> + 60$</label><br class="hide-mobile">
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="mt-10 ml-5 block bg-darkgray search-btn color-gray" type="submit">SEARCH</button>
+                    </form>
+                </div>
+            </div>
+            <div class="search-results ph-20">
+                <p class="search-results-header g-rounded">
+                    Results in board games
+                </p>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/wizard.jpg" alt="Wizard">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Wizard</a></h3>
+                        <p class="mt-10 ph-20">
+                            Predict how many tricks you'll win, with the help of Wizards and Jesters.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">9.99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/catan.jpg" alt="Catan">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Catan</a></h3>
+                        <p class="mt-10 ph-20">
+                            Collect and trade resources to build up the island of Catan in this modern classic.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24.99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/cluedo.jpg" alt="Cluedo">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Cluedo</a></h3>
+                        <p class="mt-10 ph-20">
+                            Catch the culprit of a crime by identifying who did it, with what, and where.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24,99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/monopoly.jpeg" alt="Monopoly">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Monopoly</a></h3>
+                        <p class="mt-10 ph-20">
+                            Buy properties, trade for sets, build houses, and run everyone else out of the game.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24,99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/hotel.jpg" alt="Hotel Tycoon">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Hotel Tycoon</a></h3>
+                        <p class="mt-10 ph-20">
+                            Run the most successful vacation resort on the island of Samoa.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24,99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/risk.jpg" alt="Risk">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Risk</a></h3>
+                        <p class="mt-10 ph-20">
+                            Will you conquer the world in this multi-player push-your-luck wargame?
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24,99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/scrabble.jpeg" alt="Scrabble">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Scrabble</a></h3>
+                        <p class="mt-10 ph-20">
+                            Carefully place your lettered tiles to make high-scoring words.
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">24,99$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex s-result">
+                    <div class="p-relative img-container">
+                        <img class="p-absolute card-img" src="../images/subbuteo.jpg" alt="Subbuteo">
+                    </div>
+                    <div>
+                        <h3 class="ph-20"><a class="color-pink bold" href="#">Subbuteo</a></h3>
+                        <p class="mt-10 ph-20">
+                            Play "The Beautiful Game", where fancy flicks are needed on every play!
+                        </p>
+                        <div class="flex mt-20 ph-20">
+                            <button class="price-btn bg-pink" type="button"><span class="block ph-20">60$</span></button>
+                            <button class="cart-btn bg-pink flex align-center no-left-radius" type="button"><i class="color-darkGray fas fa-shopping-cart"></i><span class="block ml-10 hide-mobile">ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-20">
+        <div class="container ph-20">
+            <div class="footer flex justify-center">
+                <div class="info">
+                    <div class="flex align-center justify-center">
+                        <div class = "icon p-relative ml-5">
+                            <a href="#">
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class="rect bg-gray p-absolute"></div>
+                            </a>
+                        </div>
+                        <p><a href="#">ZATTIX</a></p>
+                    </div>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="../index.html">Home Page</a></li>
+                        <li class="mt-10 bar"><a href="#">About Us</a></li>
+                        <li class="mt-10 bar"><a href="#">Contact Us</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="#">Term & Condition </a></li>
+                        <li class="mt-10 bar"><a href="#">Advertise</a></li>
+                        <li class="mt-10 bar"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="categories">
+                    <p class="categories-header color-pink"><a href="#">CATEGORIES</a></p>
+                    <div class="flex">
+                        <ul class="list">
+                            <li class="mt-10"><a href="#">Gaming</a></li>
+                            <li class="mt-10"><a href="#">Headphones</a></li>
+                            <li class="mt-10"><a href="#">Speakers</a></li>
+                            <li class="mt-10"><a href="#">Cameras</a></li>
+                            <li class="mt-10"><a href="#">Microphones</a></li>
+                        </ul>
+                        <ul class="list">
+                            <li class="mt-10"><a href="#">Board Games</a></li>
+                            <li class="mt-10"><a href="#">Card Games</a></li>
+                            <li class="mt-10"><a href="#">Family Games</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

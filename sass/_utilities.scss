@@ -1,0 +1,109 @@
+$colors: (
+  pink: $pink,
+  gray: $gray,
+  darkgray: $darkGray,
+  darkpink: $darkPink,
+  white: rgb(255, 255, 255),
+  lightgray: $lightGray,
+  verylightgray: $verylightGray,
+);
+
+$positions: (
+  absolute: absolute,
+  relative: relative,
+  fixed: fixed,
+  sticky: sticky,
+);
+
+.flex {
+  display: flex;
+}
+
+.flex-tablet {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.flex-mobile {
+  display: flex;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.block {
+  display: block;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.hide-mobile {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.hide-tablet {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.max-width-1000 {
+  width: 100%;
+  max-width: 1000px;
+}
+
+@each $prop, $value in $colors {
+  .color-#{$prop} {
+    color: $value;
+  }
+
+  .bg-#{$prop} {
+    background-color: $value;
+  }
+}
+
+@each $prop, $value in $positions {
+  .p-#{$prop} {
+    position: $value;
+  }
+}

@@ -1,0 +1,37 @@
+.categories {
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+
+  @media (min-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    width: 40%;
+  }
+}
+
+.categories-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid $pink;
+}
+
+.footer {
+  border-top: 1px solid $lightGray;
+  padding: 20px 0;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.list {
+  width: 200px;
+}
+
+.bar {
+  padding: 0 10px;
+  border-left: 1px solid $lightGray;
+}

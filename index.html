@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Shop</title>
+</head>
+<body>
+    <header>
+        <nav class = "bg-darkgray w-100 p-fixed nav-fixed">
+            <div class = "flex justify-around align-center max-width-1000 m-h">
+                <div class="flex align-center">
+                    <div class = "icon p-relative">
+                        <a href="index.html">
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class = "h-50 flex">
+                                <div class = "circle color-pink"></div>
+                                <div class = "circle color-pink"></div>
+                            </div>
+                            <div class="rect bg-pink p-absolute"></div>
+                        </a>
+                    </div>
+                    <h1><a class="logo color-white hide-mobile" href="index.html">ZATTIX</a></h1>
+                </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="index.html">
+                        <i class="block color-gray font-size-medium fas fa-home"></i>
+                        <span class="block ml-5 color-gray hide-mobile">HOME</span>
+                    </a>
+                </div>
+                <div class="ml-10">
+                    <a class="flex align-center" href="html/search-result.html">
+                        <i class="block color-gray font-size-medium fas fa-shopping-cart"></i>
+                        <span class="block ml-5 color-gray hide-mobile">CART</span>
+                    </a>
+                </div>
+                <a class="ml-10 signup-btn block color-gray" href="html/search-result.html">SIGN UP</a>
+                <button class="bg-pink postadd-btn color-white bold" type="button">POST AN ADD</button>
+            </div>
+        </nav>
+        <nav class="mt-45 bg-pink">
+            <div class="nav-secondary p-relative">
+                <div class="p-absolute top-n20">
+                    <div class = "icon-large p-relative ml-5 hide-mobile">
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class="rect bg-darkpink p-absolute"></div>
+                    </div>
+                </div>
+                <div class="flex flex-column align-center">
+                    <a href="index.html"><span class="block color-white p-20 p-relative z-1 font-size-xl">ZATTIX</span></a>
+                    <h2 class="block color-white p-20 z-1">For all your gaming needs</h2>
+                    <div class="flex-tablet align-center z-1">
+                        <form class="flex-tablet align-center p-20 z-1" action="html/search-result.html">
+                            <div class="flex">
+                                <div class="flex search-cat bg-white justify-between align-center p-relative">
+                                    <span class="font-size-small color-gray">Categories</span>
+                                    <i class="color-gray font-size-small fas fa-arrow-down"></i>
+                                    <div class="p-absolute cat-dropdown bg-white">
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Video Games</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Board Games</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Headphones</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Gaming Chairs</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Microphones</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Speakers</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Category</a>
+                                        <a class="block cat-link color-darkGray" href="html/search-result.html">Category</a>
+                                    </div>
+                                </div>
+                                <input class="block search-field" type="text" placeholder="Search">
+                            </div>
+                            <button class="ml-5 block bg-darkgray search-btn color-gray" type="submit">SEARCH</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-white p-relative">
+        <div class="container">
+            <section class="offer ph-20">
+                <div class="max-width-1000 m-h">
+                    <h2 class="block color-darkgray g-rounded"><a href="html/search-result.html">HOT OFFERS</a></h2>
+                    <div class="slides">
+                        <div class="slide" id="slide-1">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-price">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/gamingSet.jpg" alt="Gaming Set">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Gaming Set (Chair, Headphones, Speakers, Keyboard, Mouse)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">See more offers with up to 70% discount.</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-2">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-price">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/hotel.jpg" alt="Gaming Set">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Gaming Set (Chair, Headphones, Speakers, Keyboard, Mouse)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">See more offers with up to 70% discount.</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-3">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-price">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/monopoly.jpeg" alt="Gaming Set">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Gaming Set (Chair, Headphones, Speakers, Keyboard, Mouse)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">See more offers with up to 70% discount.</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-4">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-price">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/gamingSet.jpg" alt="Gaming Set">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Gaming Set (Chair, Headphones, Speakers, Keyboard, Mouse)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">See more offers with up to 70% discount.</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-5">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-price">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/risk.jpg" alt="Gaming Set">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Gaming Set (Chair, Headphones, Speakers, Keyboard, Mouse)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">See more offers with up to 70% discount.</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="flex justify-center mt-10">
+                        <a href="#slide-1"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-2"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-3"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-4"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-5"><div class="ml-10 slider-circle"></div></a>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">HEADSETS</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/razer1.jpeg" alt="Razer Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Razer Kraken X Lite</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Type: Headband / Over Ear, Connection: 3.5 mm</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">38$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/zeroground1.jpeg" alt="Zeroground Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Zeroground Akechi Pro</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Type: Headband, Connection: USB</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">39$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/zeroground2.jpeg" alt="Zeroground Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Zeroground HD-2400G Keiji</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Type: Headband / Over Ear, Connection: USB</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">24$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/kraken.jpeg" alt="Razer Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Razer Kraken Ultimate</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Type: Headband / Over Ear, Connection: USB</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">119$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/krakenX.jpeg" alt="Razer Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Razer Kraken X Classic Black</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Type: Headband / Over Ear, Connection: 3.5 mm</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">49$</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">VIDEO GAMES</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 bold color-pink h-medium" href="html/search-result.html">Cyberpunk 2077</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Games for Windows</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">59,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.jpeg" alt="NBA 2K21">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">NBA 2K21</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Games for Windows</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">59,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/crashbandicoot4.jpg" alt="Crash Bandicoot 4">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Crash Bandiccot 4-It's About Time</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">PS4 Games</p> </a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">69.99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/demonsouls.jpg" alt="Demon Souls">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Demon Souls</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">PS5 Games</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">74,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/rdr2.jpg" alt="Read Dead Redemption">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Read Dead Redemption 2</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Games for Windows</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">59,99$</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">BOARD GAMES</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/risk.jpg" alt="Risk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Risk</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Will you conquer the world in this multi-player push-your-luck wargame?</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">24,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/scrabble.jpeg" alt="Scrabble">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Scrabble</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Carefully place your lettered tiles to make high-scoring words.</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">24,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/wizard.jpg" alt="Wizard">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Wizard</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Predict how many tricks you'll win, with the help of Wizards and Jesters.</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">9,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/catan.jpg" alt="Catan">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Catan</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Collect and trade resources to build up the island of Catan in this modern classic.</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">24,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/hotel.jpg" alt="Hotel Tycoon">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Hotel Tyccon</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Run the most successful vacation resort on the island of Samoa.</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Add to cart</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute price">24,99$</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> 
+    </main>
+    <footer class="mt-20">
+        <div class="container ph-20">
+            <div class="footer flex justify-center">
+                <div class="info">
+                    <div class="flex align-center justify-center">
+                        <div class = "icon p-relative ml-5">
+                            <a href="html/search-result.html">
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class="rect bg-gray p-absolute"></div>
+                            </a>
+                        </div>
+                        <p><a href="html/search-result.html">ZATTIX</a></p>
+                    </div>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="index.html">Home Page</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">About Us</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Contact Us</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="html/search-result.html">Term & Condition </a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Advertise</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="html/search-result.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="categories">
+                    <p class="categories-header color-pink"><a href="html/search-result.html">CATEGORIES</a></p>
+                    <div class="flex">
+                        <ul class="list">
+                            <li class="mt-10"><a href="html/search-result.html">Gaming</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Headphones</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Speakers</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Cameras</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Microphones</a></li>
+                        </ul>
+                        <ul class="list">
+                            <li class="mt-10"><a href="html/search-result.html">Board Games</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Card Games</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Family Games</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
